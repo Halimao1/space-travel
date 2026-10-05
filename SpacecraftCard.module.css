@@ -1,0 +1,25 @@
+.card {
+  border: 1px solid darkgrey;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+.name {
+  margin-bottom: 8px;
+}
+
+.actions {
+  display: flex;
+  gap: 12px;
+  margin-top: 12px;
+}
+
+.link {
+  text-decoration: none;
+  color: #4da6ff;
+}
+
+.button {
+  cursor: pointer;
+}

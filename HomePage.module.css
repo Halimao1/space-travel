@@ -1,0 +1,37 @@
+.container {
+  text-align: center;
+}
+
+.title {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.description {
+  max-width: 600px;
+  margin: 0 auto 40px;
+  color: #ccc;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  display: block;
+  width: 250px;
+  padding: 20px;
+  border: 1px solid #444;
+  border-radius: 8px;
+  text-decoration: none;
+  color: white;
+  transition: 0.2s;
+}
+
+.card:hover {
+  background-color: #1f2937;
+  transform: translateY(-5px);
+}
